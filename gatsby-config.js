@@ -5,7 +5,7 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Rick Jarrell`,
   },
   plugins: [
     {
@@ -127,7 +127,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Rick Jarrell`,
           },
         ],
       },
